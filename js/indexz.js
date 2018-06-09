@@ -15,7 +15,7 @@ function getProdHtml(prod){
 function getData(){
  var results = []
  for(var i = 0; i<3; i++){
-   var rand = Math.floor(Math.random()*100)
+   var rand = Math.floor(Math.random()*200)
    var product = 	{
 		img: 'http://picsum.photos/200/200/?image='+rand,
 		name: 'HUAWEI',
